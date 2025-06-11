@@ -1,0 +1,18 @@
+0749decd,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+30a71c47,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+95fb49ae,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+324c5242,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+3a445123,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+5c7d3d6a,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+26a0785e,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+273be86e,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+3a3530f1,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+e2ab6d12,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+de4fcc4f,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+723f79db,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+b18127bd,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+ef15168e,joe ,doe , 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+08b1f681,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.84 mi,6 mins
+d4d7eb1c,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.83 mi,5 mins
+72bdf7ac,2025-06-10 20:02:16,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.83 mi,5 mins
+3a252061,2025-06-10 20:05:09,daylen ,hall, 500 S Capitol Ave, Indianapolis, IN 46225 → 125 S Pennsylvania St, Indianapolis, IN 46204,0.83 mi,5 mins

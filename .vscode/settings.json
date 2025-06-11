@@ -1,0 +1,13 @@
+{
+    // the port Live-Server listens on
+    "liveServer.settings.port": 5502,
+  
+    // enable proxying
+    "liveServer.settings.proxy": {
+      "enable": true,
+      // forward every request (baseUri "/") to our Flask app:
+      "baseUri": "/",
+      "proxyUri": "http://127.0.0.1:5000"
+    }
+  }
+  

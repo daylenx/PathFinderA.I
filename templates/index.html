@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PathFinderAI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <h1>🚀 PathFinderAI</h1>
+
+  <!-- History button at top -->
+  <form action="{{ url_for('history_page') }}" method="get" style="margin-bottom:20px;">
+    <button type="submit" class="btn">📜 Delivery History</button>
+  </form>
+
+  <!-- Route calculation form -->
+  <form method="post">
+    <input name="client"   placeholder="Client Name"    required>
+    <input name="driver"   placeholder="Driver Name"    required>
+    <input name="pickup"   placeholder="Pickup Address"  required>
+    <input name="delivery" placeholder="Delivery Address" required>
+    <button type="submit">Calculate Route</button>
+  </form>
+
+  <!-- Result preview with timestamp -->
+  {% if result %}
+    {% if result.error %}
+      <div class="error">{{ result.error }}</div>
+    {% else %}
+      <pre>
+📅 Date:     {{ result.date }}
+📦 ID:       {{ result.id }}
+👤 Client:   {{ result.client }}
+🚚 Driver:   {{ result.driver }}
+📍 Route:    {{ result.route }}
+📏 Distance: {{ result.distance }}
+⏱️ Time:      {{ result.time }}
+      </pre>
+    {% endif %}
+  {% endif %}
+
+  <!-- Map embed -->
+  {% if map_html %}
+    <div class="map-container">
+      {{ map_html|safe }}
+    </div>
+  {% endif %}
+</body>
+</html>

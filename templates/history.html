@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Delivery History</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <p><a href="{{ url_for('index') }}">← Back to Map</a></p>
+  <h1>📦 Delivery History</h1>
+
+  {% if history %}
+    <ul class="history-list">
+      {% for id, date, client, driver, route, dist, time in history %}
+        <li>
+          📅 <strong>{{ date }}</strong> —
+          📦 <strong>{{ id }}</strong> —
+          👤 {{ client }} → 🚚 {{ driver }} |
+          🗺️ {{ route }} |
+          📏 {{ dist }} |
+          ⏱️ {{ time }} |
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No deliveries recorded yet.</p>
+  {% endif %}
+</body>
+</html>

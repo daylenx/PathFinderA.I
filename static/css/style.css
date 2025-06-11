@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  input, button {
+    margin: 5px;
+    padding: 8px;
+  }
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  /* Map wrapper */
+.map-container {
+    width: 60%;
+    height: 150px;           /* your desired height */
+    margin: 10px 0 40px;     /* space above & below */
+    position: relative;      /* so inner map fills it */
+    clear: both;             /* drop below any floats */
+  }
+  
+  /* Force the Folium‐generated <div> or <iframe> inside to fill the wrapper */
+  .map-container > div,
+  .map-container > iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  /* History section starts below the map */
+  #history-section {
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  /* Optional: styling for your list */
+  .history-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .history-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
